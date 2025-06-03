@@ -88,8 +88,8 @@ h1 {
 /* Sobre mi */
 
 .sobre-mi {
-  height: 500px;
-  padding: 10px;
+  height: 400px;
+  padding: 5px;
 }
 
 .sobre-mi .contenedor {
@@ -204,13 +204,13 @@ h1 {
 
 .articulos {
   min-height: 500px;
-  padding: 30px;
+  padding: 5px;
 }
 
 .articulos .card {
   width: 80%;
   max-width: 600px;
-  margin: 20px;
+  margin: 10px;
 }
 
 .articulos .card-header {
@@ -220,7 +220,7 @@ h1 {
 /* Testimonios */
 
 .testimonios {
-  padding: 40px 40px 80px 40px;
+  padding: 10px 10px 10px 10px;
 }
 
 .testimonios .carousel {
@@ -239,6 +239,12 @@ h1 {
   align-items: center;
   justify-content: center;
 }
+
+.sobremi-imagen {
+  width: 275px;
+  margin: 10px 10px 20px 10px;
+}
+
 
 .testimonio-imagen {
   height: 150px;
@@ -331,14 +337,14 @@ footer {
 
 .footer-logo {
   height: 200px;
-  width: 180x;
+  width: 80x;
   margin: 10px;
 }
 
 .footer-texto {
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   font-family: 'Quicksand', sans-serif;
 }
 
@@ -349,7 +355,7 @@ footer {
   align-items: center;
   justify-content: center;
   padding: 2px;
-  margin: 10px;
+  margin: 5px;
   border: 2px solid white;
   border-radius: 50%;
   transition: all 0.2s ease-in;
@@ -380,11 +386,11 @@ footer {
 
 @media screen and (max-width: 400px) {
   .overlay p {
-    font-size: 18px;
+    font-size: 10px;
   }
 
   .overlay i {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 
@@ -407,6 +413,24 @@ footer {
 
 @media screen and (min-width: 700px) {
   .hero-inferior-imagen {
-    max-width: 600px;
+    max-width: 500px;
   }
+}
+
+@media screen and (max-width: 400px) {
+  .sobremi-imagen {
+    width: 150px;
+    margin: 0px 0px 0px 0px;
+    align-items: center;
+}
+    .seccion-texto {
+  font-size: 0.6rem;
+}
+
+    .seccion-titulo {
+        font-size: 1.5rem;
+        padding: 10px 0;
+        font-family: 'Rubik Dirt', cursive;
+}
+
 }
