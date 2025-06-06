@@ -409,6 +409,17 @@ footer {
   .testimonio-texto {
     font-size: 18px;
   }
+.sobre-mi {
+  height: 700px;
+  padding: 5px;
+}
+
+.sobre-mi .contenedor {
+  max-width: 500px;
+  text-align: center;
+}
+
+
 }
 
 @media screen and (min-width: 700px) {
