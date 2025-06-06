@@ -88,12 +88,12 @@ h1 {
 /* Sobre mi */
 
 .sobre-mi {
-  height: 400px;
+  height: 500px;
   padding: 5px;
 }
 
 .sobre-mi .contenedor {
-  max-width: 600px;
+  max-width: 500px;
   text-align: center;
 }
 
